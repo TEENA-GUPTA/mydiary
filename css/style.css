@@ -84,6 +84,8 @@
 }
 #gif{
 	font-family: 'Righteous', cursive;
+	width: 100%;
+	height: 100vh;
 }
 /*transition in css3*/
 .heart{
@@ -95,3 +97,6 @@
 	width: 100px; height: 100px;
 
 }
+
+
+
