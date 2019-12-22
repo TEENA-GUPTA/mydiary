@@ -5,14 +5,14 @@
 }
 
 .footer-copyright {
-	/*font-family: 'Black Ops One', cursive;*/
+	font-family: 'Black Ops One', cursive;
 	font-size: 17px;
 }
-/*.page-footer {
+.page-footer {
 	font-family: 'Mountains of Christmas', cursive;
-}*/
+}
 #sec {
-	/*font-family: 'Rye', cursive;*/
+	font-family: 'Rye', cursive;
 	text-shadow: 2px 2px 2px blue;
 	transition: transform 2s;
 }
@@ -39,7 +39,7 @@
 
 
 #gallery {
-	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Pacifico', cursive;
 	color: red;
 	text-shadow: 2px 2px 2px blue;
 	transition: transform 2s;
@@ -50,7 +50,7 @@
 
 
 #survices {
-	/*font-family: 'Righteous', cursive;*/
+	font-family: 'Righteous', cursive;
 	color: yellow;
 	text-shadow: 3px 3px 3px red;
 	transition: transform 2s;
@@ -60,12 +60,12 @@
 }
 
 #links {
-	/*font-family: 'Concert One', cursive;*/
+	font-family: 'Concert One', cursive;
 	color: green;
 	font-size: 19px;
 }
 #about {
-	/*font-family: 'Merienda', cursive;*/
+	font-family: 'Merienda', cursive;
 	color: gray;
 	text-shadow: 3px 3px 3px pink;
 	transition: transform 2s;
@@ -73,17 +73,17 @@
 #about:hover {
 	transform: rotate(360deg);
 }
-/*#i {
+#i {
 	font-family: 'Shrikhand', cursive;
-}*/
-/*#sidenav {
+}
+#sidenav {
 	font-family: 'Emilys Candy', cursive;
-}*/
-/*.sidenav {
+}
+.sidenav {
 	font-family: 'Permanent Marker', cursive;
-}*/
+}
 #gif{
-/*	font-family: 'Righteous', cursive;*/
+	font-family: 'Righteous', cursive;
 	width: 100%;
 	height: 100vh;
 }
