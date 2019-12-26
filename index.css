@@ -102,31 +102,32 @@
 
 @media(min-width: 992px){
 	#rt{ font-size: 50px;}
-	#rt1 { font-size: 42px; }
-	.column  { font-size: 30px; }
+	#rt1 { font-size:32px; }
+	.column  { font-size: 23px; }
 }
 
 @media(min-width: 768px) and (max-width:991px){
 	#rt{ font-size: 45px;}
-	#rt1 { font-size: 38px; }
+	#rt1 { font-size: 28px; }
 	.column  { font-size: 18px; }
 }
 
 @media(min-width: 575px) and (max-width:767px){
 	#rt{ font-size: 40px;}
-	#rt1 { font-size: 35px; }
-	.column  { font-size: 15px; }
+	#rt1 { font-size: 23px; }
+	.column  { font-size: 14px; }
 }
 
 @media(min-width: 480px) and (max-width:574px){
 	#rt{ font-size: 35px;}
-	#rt1 { font-size: 30px; }
-	.column { font-size: 13px; }
+	#rt1 { font-size: 19px; }
+	.column { font-size: 11px; }
 }
 
-@media(min-width: 479px){
-	#rt{ font-size: 32px;}
-	#rt1 { font-size: 22px; }
-	.column { font-size: 11px; }
+@media(max-width:479px){
+	#rt{ font-size: 20px;}
+	#rt1 { font-size: 14px; }
+	#rt2 { font-size: 10px;}
+	.column { font-size: 8px; }
 }
 
