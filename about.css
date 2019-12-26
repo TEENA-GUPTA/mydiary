@@ -57,3 +57,7 @@
 #myquotes:hover {
 	transform: rotate(360deg);	
 }
+
+.sidenav {
+	font-family: 'Slabo 27px', serif;
+}
