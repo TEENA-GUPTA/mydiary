@@ -1,63 +1,56 @@
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
 }
-
 .footer-copyright {
-	font-family: 'Girassol', cursive;
-	font-size: 17px;
+font-family: 'Girassol', cursive;
+font-size: 17px;
 }
-
 .page-footer {
-	font-family: 'The Girl Next Door', cursive;
+font-family: 'The Girl Next Door', cursive;
 }
-
 /*transition in css3*/
 .diary {
-	width:50px; height:50px;
-	transition-property: all;
-	transition-duration: 1s;
+width:50px; height:50px;
+transition-property: all;
+transition-duration: 1s;
 }
 .diary:hover {
-	width: 300px; height: 300px;
-
+width: 300px; height: 300px;
 }
 #diary {
-	font-family: 'Charmonman', cursive;
-	color: red;
-	text-shadow: 3px 3px 3px blue;
+font-family: 'Charmonman', cursive;
+color: red;
+text-shadow: 3px 3px 3px blue;
 }
-
 .diary{
-	border-radius: 50px;
+border-radius: 50px;
 }
 .materialboxed{
-	border-radius: 50px;
+border-radius: 50px;
 }
-
 .orange-text {
-	font-family: 'Nova Script', cursive;
+font-family: 'Nova Script', cursive;
 }
-
 .blue {
-	font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
 }
 .purple-text{
-	font-family: 'Bitter', serif;
+font-family: 'Bitter', serif;
 }
 #button {
-	font-family: 'Fruktur', cursive;
+font-family: 'Fruktur', cursive;
+
 }
 #myquotes{
-	font-family: 'IM Fell Double Pica SC', serif;
-	text-shadow: 3px 3px 3px red;
-	transition: transform 2s;
+font-family: 'IM Fell Double Pica SC', serif;
+text-shadow: 3px 3px 3px red;
+transition: transform 2s;
 }
 #myquotes:hover {
-	transform: rotate(360deg);	
+transform: rotate(360deg);
 }
-
 .sidenav {
-	font-family: 'Slabo 27px', serif;
+font-family: 'Slabo 27px', serif;
 }

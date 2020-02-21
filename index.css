@@ -1,133 +1,121 @@
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
 }
-
 .footer-copyright {
-	font-family: 'Black Ops One', cursive;
-	font-size: 17px;
+font-family: 'Black Ops One', cursive;
+font-size: 17px;
 }
 .page-footer {
-	font-family: 'Mountains of Christmas', cursive;
+font-family: 'Mountains of Christmas', cursive;
 }
 #sec {
-	font-family: 'Rye', cursive;
-	text-shadow: 2px 2px 2px blue;
-	transition: transform 2s;
+font-family: 'Rye', cursive;
+text-shadow: 2px 2px 2px blue;
+transition: transform 2s;
 }
 #sec:hover {
-	transform: rotate(360deg);
+transform: rotate(360deg);
 }
-
-
 /*multiple column in css3*/
-
+#links {
+font-family: 'Concert One', cursive;
+color: green;
+}
 .column{
-	column-count: 3;
-	column-gap: 50px;
-	text-align: justify;
-	column-rule: dashed;
-	column-rule-color: red;
+column-count: 3;
+column-gap: 50px;
+text-align: justify;
+column-rule: dashed;
+column-rule-color: red;
 }
 /*border in css3 */
 .materialboxed {
-	border-radius: 50px;
+border-radius: 50px;
 }
-
 /*transform in css3*/
-
-
 #gallery {
-	font-family: 'Pacifico', cursive;
-	color: red;
-	text-shadow: 2px 2px 2px blue;
-	transition: transform 2s;
+font-family: 'Pacifico', cursive;
+color: red;
+text-shadow: 2px 2px 2px blue;
+transition: transform 2s;
 }
 #gallery:hover {
-	transform: rotate(360deg);
+transform: rotate(360deg);
 }
-
-
 #survices {
-	font-family: 'Righteous', cursive;
-	color: yellow;
-	text-shadow: 3px 3px 3px red;
-	transition: transform 2s;
+font-family: 'Righteous', cursive;
+color: yellow;
+text-shadow: 3px 3px 3px red;
+transition: transform 2s;
 }
 #survices:hover {
-	transform: rotate(360deg);
-}
-
-#links {
-	font-family: 'Concert One', cursive;
-	color: green;
+transform: rotate(360deg);
 }
 #about {
-	font-family: 'Merienda', cursive;
-	color: gray;
-	text-shadow: 3px 3px 3px pink;
-	transition: transform 2s;
+font-family: 'Merienda', cursive;
+color: gray;
+text-shadow: 3px 3px 3px pink;
+transition: transform 2s;
 }
 #about:hover {
-	transform: rotate(360deg);
+transform: rotate(360deg);
 }
 #i {
-	font-family: 'Shrikhand', cursive;
+font-family: 'Shrikhand', cursive;
 }
 #sidenav {
-	font-family: 'Emilys Candy', cursive;
+font-family: 'Emilys Candy', cursive;
 }
 .sidenav {
-	font-family: 'Permanent Marker', cursive;
+font-family: 'Permanent Marker', cursive;
 }
 #gif{
-	font-family: 'Righteous', cursive;
-	width: 100%;
-	height: 100vh;
+width: 100%;
+height: 100vh;
+}
+.carousel-item {
+width: 100vw;
+height: 100vh;
+}
+#rt , #rt1, #rt2 {
+font-family: 'Righteous', cursive;
 }
 /*transition in css3*/
 .heart{
-	width:40px; height:40px;
-	transition-property: all;
-	transition-duration: 1s;
+width:40px; height:40px;
+transition-property: all;
+transition-duration: 1s;
 }
 .heart:hover {
-	width: 100px; height: 100px;
-
+width: 100px; height: 100px;
 }
-
-
 /*////////////responsive//////////*/
-
-@media(min-width: 992px){
-	#rt{ font-size: 50px;}
-	#rt1 { font-size:32px; }
-	.column  { font-size: 23px; }
+@media screen and (min-width: 993px) {
+.column {font-size: 22px;}
+#gif {height: 90vh;}
 }
-
-@media(min-width: 768px) and (max-width:991px){
-	#rt{ font-size: 45px;}
-	#rt1 { font-size: 28px; }
-	.column  { font-size: 18px; }
+@media screen and (min-width: 769px) and (max-width:992px){
+.column  { font-size:18px;}
+#rt{font-size: 40px;}
+#rt1{font-size: 30px;}
+#rt2 {font-size: 20px;}
+#gif {height: 70vh;}
 }
-
-@media(min-width: 575px) and (max-width:767px){
-	#rt{ font-size: 40px;}
-	#rt1 { font-size: 23px; }
-	.column  { font-size: 14px; }
+@media screen and (min-width: 481px) and (max-width:768px){
+#rt{ font-size: 30px;}
+#rt1 { font-size: 20px;}
+#rt2 {font-size: 10px;}
+.column  { font-size: 10.5px; }
+#gif {height: 40vh;}
+.links{text-align: center;}
 }
-
-@media(min-width: 480px) and (max-width:574px){
-	#rt{ font-size: 35px;}
-	#rt1 { font-size: 19px; }
-	.column { font-size: 11px; }
+@media screen and (min-width:321px) and (max-width: 480px) {
+#rt{ font-size: 20px;}
+#rt1 { font-size: 10px; }
+#rt2 {font-size: 5px;}
+.column { font-size: 6.5px;}
+.links{text-align: center;}
+#gif {height: 32vh;}
 }
-
-@media(max-width:479px){
-	#rt{ font-size: 20px;}
-	#rt1 { font-size: 14px; }
-	#rt2 { font-size: 10px;}
-	.column { font-size: 8px; }
-}
-
