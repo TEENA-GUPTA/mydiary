@@ -119,15 +119,15 @@ column-gap: 40px; }
 .column { font-size: 7px;
 column-gap: 15px;}
 .links{text-align: center;}
-#gif {height: 32vh;}
+#gif {height: 30vh;}
 }
 @media screen and (max-width:320px) {
-#rt{ font-size: 16px;}
-#rt1 { font-size: 12px; }
-#rt2 {font-size: 7px;
+#rt{ font-size: 15px;}
+#rt1 { font-size: 7px; }
+#rt2 {font-size: 5px;
 }
-.column { font-size: 7px;
+.column { font-size: 5px;
 column-gap: 10px;}
 .links{text-align: center;}
-#gif {height: 30vh;}
+#gif {height: 28vh;}
 }
