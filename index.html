@@ -28,7 +28,7 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <style>
-      section { width: 90%; margin:auto; margin-top: 100px; }
+    section { width: 90%; margin:auto; margin-top: 100px; }
     </style>
   </head>
   <body>
@@ -44,9 +44,9 @@
       </div>
     </nav>
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="index.html" target="_blank">Home</a></li>
-      <li><a href="about.html" target="_blank">About Me</a></li>
-      <li><a href="contact.html" target="_blank">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
     <!-- ////home slider//// -->
     <div class="carousel carousel-slider center" id="gif">
@@ -226,19 +226,19 @@
       </div>
     </footer>
     <script>
-      $(document).ready(function(){
-      $('.sidenav').sidenav();
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
     });
-      $('.carousel.carousel-slider').carousel({
+    $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators:true
-      });
-      $(document).ready(function(){
-      $('.fixed-action-btn').floatingActionButton();
-      });
+    });
     $(document).ready(function(){
-      $('.materialboxed').materialbox();
-      });
+    $('.fixed-action-btn').floatingActionButton();
+    });
+    $(document).ready(function(){
+    $('.materialboxed').materialbox();
+    });
     </script>
   </body>
 </html>
